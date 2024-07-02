@@ -1,0 +1,16 @@
+{
+    "imports": {
+        "preact": "https://esm.sh/preact@10.22.1",
+        "preact/": "https://esm.sh/preact@10.22.1/",
+        "preact-render-to-string": "https://esm.sh/preact-render-to-string@6.5.5",
+        "htm/preact": "https://esm.sh/htm@3.1.1/preact?external=preact"
+    },
+    "lint": {
+        "rules": {
+            "exclude": ["prefer-const"]
+        }
+    },
+    "fmt": {
+        "indentWidth": 4
+    }
+}
